@@ -11,6 +11,7 @@ const Home = async () => {
           <a href="#/${character.id}/">
             <img src="${character.image}" alt="${character.name}">
             <h2>${character.name}</h2>
+            <em>${character.status}</em>
           </a>
         </article>
       `
