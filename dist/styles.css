@@ -69,8 +69,10 @@ body {
 
 .Header-nav a {
   color: var(--fonts-color);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-decoration: none;
+}
+.Header-nav a:first-child {
   padding-bottom: 0.5rem;
 }
 
@@ -90,6 +92,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
+  justify-content: center;
 }
 
 .Characters-inner {
@@ -189,6 +192,17 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+    justify-content: center;
+  }
+
+  .Character-item {
+    background-color: var(--card-color);
+    border-radius: 0.5rem;
+    margin: 0 0 2rem 0;
+    display: block;
+    animation-duration: 1s;
+    animation-name: fade;
+    opacity: 0.8;
   }
 }
 
@@ -197,20 +211,30 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-  }
-}
-
-@media (max-width: 700px) {
-  .Characters {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 
   .Character-item {
     background-color: var(--card-color);
-    height: 100%;
     border-radius: 0.5rem;
+    margin: 0 0 2rem 0;
+    display: block;
+    animation-duration: 1s;
+    animation-name: fade;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 600px) {
+  .Characters {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Character-item {
+    background-color: var(--card-color);
+    border-radius: 0.5rem;
+    margin: 0 0 2rem 0;
     display: block;
     animation-duration: 1s;
     animation-name: fade;
