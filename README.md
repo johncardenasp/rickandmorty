@@ -1,6 +1,6 @@
 # Rick and Morty - SPA
 
-Rick and Morty is a Single Page Application development in the course of [SPA with JavaScript Vanilla](https://platzi.com/clases/spa-javascript/ "SPA with JavaScript Vanilla").
+Rick and Morty is a Single Page Application develop in the course of [SPA with JavaScript Vanilla](https://platzi.com/clases/spa-javascript/ "SPA with JavaScript Vanilla") from Platzi.
 
 ---
 
@@ -14,4 +14,4 @@ For this we use:
 - HTML, CSS and JavaScript Vanilla
 - And obviously, Git and GitHub
 
-You can see the deployment here.
+You can see the deployment [here](https://johncardenasp.github.io/RickAndMorty/).
