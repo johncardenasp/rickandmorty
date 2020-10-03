@@ -39,7 +39,7 @@ img {
 
 :root {
   --bg-color: #04010e;
-  --card-color: #473b6f8f;
+  --card-color: #271f428f;
   --fonts-color: #fff;
   --main-font: "Open Sans", sans-serif;
 }
@@ -276,7 +276,6 @@ body {
     border-radius: 0.5rem;
     animation-duration: 1s;
     animation-name: fade;
-    opacity: 0;
   }
 
   article.Character-item {
