@@ -4,13 +4,9 @@
 
 ## Description 📄
 
----
-
 This SPA was built in a [course of Single Page Application from Platzi](https://platzi.com/clases/spa-javascript/ "course of Single Page Application from Platzi"). The principal objetive is get data of the [Rick and Morty API](https://rickandmortyapi.com/ "Rick and Morty API") and print the results through a router build with JavaScript Vanilla.
 
 ## First steps 🚀
-
----
 
 The packaging of this project is built with webpack. If you want install all dependencies and work with this project, you can run this commands:
 
@@ -31,8 +27,6 @@ $ npm run build
 ```
 
 ## Preview 📱
-
----
 
 <details>
 <summary>Desktop version</summary>
@@ -71,13 +65,9 @@ $ npm run build
 
 ## Live 🟢
 
----
-
 You can the complete project here -> https://johncardenasp.github.io/RickAndMorty/
 
 ## Technologies 💻
-
----
 
 1. HTML, CSS and JavaScript Vanilla
 2. Webpack
