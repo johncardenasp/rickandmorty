@@ -10,7 +10,7 @@ const About = () => {
       >
       course of Single Page Application from Platzi
       </a>.
-      The principal objetive are get data of
+      The principal objective is get data of
       <a 
       href="https://rickandmortyapi.com/" 
       target="_blank"
