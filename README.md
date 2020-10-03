@@ -6,7 +6,7 @@
 
 ---
 
-This SPA was built in a [course of Single Page Application from Platzi](https://platzi.com/clases/spa-javascript/ "course of Single Page Application from Platzi"). The principal objetive are get data of the [Rick and Morty API](https://rickandmortyapi.com/ "Rick and Morty API") and print the results through a router build with JavaScript Vanilla.
+This SPA was built in a [course of Single Page Application from Platzi](https://platzi.com/clases/spa-javascript/ "course of Single Page Application from Platzi"). The principal objetive is get data of the [Rick and Morty API](https://rickandmortyapi.com/ "Rick and Morty API") and print the results through a router build with JavaScript Vanilla.
 
 ## First steps 🚀
 
@@ -36,27 +36,27 @@ $ npm run build
 
 <details>
 <summary>Desktop version</summary>
-<img src="src/images/desktop.jpg">
+![](src/images/desktop.jpg)
 </details>
 
 <details>
 <summary>Tablet version</summary>
-<img src="src/images/tablet.jpg">
+![](src/images/tablet.jpg)
 </details>
 
 <details>
 <summary>Mobile version</summary>
-<img src="src/images/mobile.jpg">
+![](src/images/mobile.jpg)
 </details>
 
 <details>
 <summary>Desktop cards</summary>
-<img src="src/images/desktop-cards.jpg">
+![](src/images/desktop-cards.jpg)
 </details>
 
 <details>
 <summary>Mobile cards</summary>
-<img src="src/images/mobile-cards.jpg">
+![](src/images/mobiles-cards.jpg)
 </details>
 
 ## Live 🟢
