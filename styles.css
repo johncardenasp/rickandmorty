@@ -276,7 +276,7 @@ body {
     border-radius: 0.5rem;
     animation-duration: 1s;
     animation-name: fade;
-    opacity: 0;
+    opacity: 1;
   }
 
   article.Character-item {
