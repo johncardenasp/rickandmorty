@@ -36,27 +36,37 @@ $ npm run build
 
 <details>
 <summary>Desktop version</summary>
+
 ![](src/images/desktop.jpg)
+
 </details>
 
 <details>
 <summary>Tablet version</summary>
+
 ![](src/images/tablet.jpg)
+
 </details>
 
 <details>
 <summary>Mobile version</summary>
+
 ![](src/images/mobile.jpg)
+
 </details>
 
 <details>
 <summary>Desktop cards</summary>
+
 ![](src/images/desktop-cards.jpg)
+
 </details>
 
 <details>
 <summary>Mobile cards</summary>
-![](src/images/mobiles-cards.jpg)
+
+![](src/images/mobile-cards.jpg)
+
 </details>
 
 ## Live 🟢
