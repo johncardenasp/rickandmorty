@@ -3,7 +3,7 @@ import getData from "../utils/getData";
 const Home = async () => {
   const characters = await getData();
   const view = `
-    <div class="Characters">
+    <section class="Characters">
       ${characters.results
         .map(
           (character) => `
@@ -17,7 +17,7 @@ const Home = async () => {
       `
         )
         .join("")}
-    </div>
+    </section>
   `;
   return view;
 };

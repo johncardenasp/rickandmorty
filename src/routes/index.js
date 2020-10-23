@@ -11,7 +11,6 @@ const routes = {
   "/": Home,
   "/:id": Character,
   "/about": About,
-  "/contact": "Contact",
 };
 
 // Render. Show elements according user actions.

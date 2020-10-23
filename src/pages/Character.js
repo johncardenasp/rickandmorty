@@ -17,7 +17,7 @@ const Character = async () => {
   } = character;
 
   const view = `
-  <div class="Characters-inner">
+  <section class="Characters-inner">
     <article class="Characters-card">
       <img src="${image}"" alt="Character ${name}" />
       <h2>${name}</h2>
@@ -30,7 +30,7 @@ const Character = async () => {
       <h3>Origin: ${origin.name}</h3>
       <h3>Last location: ${location.name}</h3>
     </article>
-  </div>
+  </section>
   `;
   return view;
 };
