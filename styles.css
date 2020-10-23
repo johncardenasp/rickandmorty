@@ -61,7 +61,12 @@ body {
 .Header-logo {
   width: 45%;
 }
-.Header-nav {
+
+.Header-logo figure {
+  margin: 0;
+}
+
+.Header-nav ul {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -123,6 +128,7 @@ body {
 
 .Characters-card h3 {
   text-align: left;
+  font-weight: normal;
   margin: 2rem;
 }
 
@@ -188,6 +194,28 @@ body {
   width: 2rem;
   height: 2rem;
   animation: spin 2s linear infinite;
+}
+
+.Error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .Error404 figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+} */
+
+/* .Error404 figure img {
+  width: ;
+  height: ;
+} */
+
+.Error404 h2 {
+  font-weight: normal;
 }
 
 @keyframes fade {
@@ -257,7 +285,7 @@ body {
 
   .Header-nav a {
     color: var(--fonts-color);
-    font-size: 5.5vw;
+    font-size: 4.5vw;
     text-decoration: none;
     padding-bottom: 0.5rem;
   }
@@ -271,16 +299,12 @@ body {
   .Character-item {
     display: block;
     width: 70vw;
-    min-width: 15rem;
-    background-color: var(--card-color);
-    border-radius: 0.5rem;
-    animation-duration: 1s;
-    animation-name: fade;
+    padding-bottom: 1rem;
     opacity: 1;
   }
 
   article.Character-item {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .Characters-card {
