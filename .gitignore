@@ -1,4 +1,4 @@
-*.yml
-dist/
-node_modules/
-webpack-explicado.txt
+node_modules
+/dist/
+.travis.yml
+*.txt
