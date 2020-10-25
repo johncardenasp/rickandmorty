@@ -65,7 +65,7 @@ $ npm run build
 
 ## Live 🟢
 
-You can the complete project here -> https://johncardenasp.github.io/RickAndMorty/
+You can the complete project here -> https://johncardenasp.github.io/rickandmorty/
 
 ## Technologies 💻
 
