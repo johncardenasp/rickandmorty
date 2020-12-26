@@ -18,7 +18,7 @@ const Character = async () => {
 
   const view = `
   <section class="Characters-inner">
-    <article class="Characters-card">
+    <article class="Characters-card dark-theme">
       <img src="${image}"" alt="Character ${name}" />
       <h2>${name}</h2>
     </article>
