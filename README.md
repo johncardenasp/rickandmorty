@@ -1,12 +1,12 @@
 # Rick and Morty Single Page Application [![](https://img.icons8.com/color/30/000000/rick-sanchez.png)](https://img.icons8.com/color/30/000000/rick-sanchez.png)
 
-![](https://img.shields.io/github/license/pandao/editor.md.svg)
+![MIT license](https://img.shields.io/badge/License-MIT-blue.svg) ![Commits](https://img.shields.io/badge/commits-48-green.svg) ![Pull request](https://img.shields.io/badge/pull%20request-1%20closed-red.svg)
 
-## Description 📄
+## Description
 
 This SPA was built in a [course of Single Page Application from Platzi](https://platzi.com/clases/spa-javascript/ "course of Single Page Application from Platzi"). The principal objetive is get data of the [Rick and Morty API](https://rickandmortyapi.com/ "Rick and Morty API") and print the results through a router build with JavaScript Vanilla.
 
-## First steps 🚀
+## First steps
 
 The packaging of this project is built with webpack. If you want install all dependencies and work with this project, you can run this commands:
 
@@ -26,7 +26,7 @@ For build the app:
 $ npm run build
 ```
 
-## Preview 📱
+## Preview
 
 <details>
 <summary>Desktop version</summary>
@@ -63,11 +63,11 @@ $ npm run build
 
 </details>
 
-## Live 🟢
+## Live
 
-You can the complete project here -> https://johncardenasp.github.io/rickandmorty/
+You can see the complete live project here -> https://johncardenasp.github.io/rickandmorty/
 
-## Technologies 💻
+## Technologies
 
 1. HTML, CSS and JavaScript Vanilla
 2. Webpack
