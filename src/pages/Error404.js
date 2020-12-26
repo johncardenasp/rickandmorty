@@ -8,13 +8,13 @@ const Error404 = () => {
       This is not your dimension. 
       <br /> 
       Please click 
-      <a href="/">
+      <a href="#">
         here to back home
       </a>
       🏠
     </p>
     <figure>
-      <img src="../src/images/rick-and-morty.png">
+      <img src="https://i.imgur.com/EM0xI9P.png">
     </figure>
     </div>
   `;
