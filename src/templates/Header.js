@@ -15,6 +15,9 @@ const Header = () => {
       </ul>
       </nav>
     </header>
+    <div class="button-toggle-theme">
+      <button id="toggle-theme">Dark Theme 🌑</button>
+    </div>
   `;
 
   return view;
