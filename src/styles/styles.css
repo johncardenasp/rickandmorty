@@ -1,7 +1,7 @@
 /* css reset */
 html {
   box-sizing: border-box;
-  --font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 *,
@@ -34,20 +34,25 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 /*--- end of reset ----*/
-
-:root {
-  --bg-color: #04010e;
-  --card-color: #473b6f8f;
-  --fonts-color: #fff;
-  --main-font: "Open Sans", sans-serif;
-}
 
 body {
   background-color: var(--bg-color);
+}
+
+body p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--fonts-color);
-  font-family: var(--main-font);
+  font-family: "Open Sans", sans-serif;
+}
+
+.Header-hidden {
+  display: none;
 }
 
 .Header-main {
@@ -55,10 +60,11 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .Header-logo {
+  margin-top: -35px;
   width: 45%;
 }
 
@@ -73,8 +79,7 @@ body {
 }
 
 .Header-nav a {
-  color: var(--fonts-color);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -84,13 +89,29 @@ body {
 
 .Header-nav a:hover {
   text-decoration: underline;
-  color: var(--fonts-color);
+}
+
+.button-toggle-theme {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-toggle-theme button {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
 }
 
 .Main {
   display: grid;
   justify-content: center;
-  padding: 10px;
+  padding: 0 15px 15px;
   grid-template-columns: minmax(auto, 976px);
 }
 
@@ -123,12 +144,15 @@ body {
 }
 
 .Characters-card h2 {
+  font-size: 2rem;
   text-align: center;
+  padding: 10px 0;
 }
 
 .Characters-card h3 {
-  text-align: left;
+  font-size: 1.8rem;
   font-weight: normal;
+  text-align: left;
   margin: 20px;
 }
 
@@ -157,34 +181,36 @@ body {
 
 .Character-item a h2 {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
   padding: 5px 10px;
 }
 
 .Character-item a {
   text-decoration: none;
-  color: var(--fonts-color);
 }
 
 .Character-item em {
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .About {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin-bottom: 160px;
 }
 
 .About h2 {
+  font-size: 2.2rem;
+  font-weight: normal;
   margin-bottom: 10px;
 }
 
-.About p a {
-  color: white;
+.About p {
+  font-size: 1.6rem;
 }
 
 .Main-loading {
@@ -201,10 +227,46 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin-top: 15px;
 }
 
-.Error404 h2 {
-  font-weight: normal;
+.Error404 img {
+  width: 380px;
+  animation: rotation 5s infinite linear;
+}
+
+.Error404 h3 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.Error404 p {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.Error404 a {
+  color: var(--button-color);
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.Footer p {
+  font-size: 1.3rem;
+  color: var(--fonts-color);
+}
+
+.Footer a {
+  color: var(--button-color);
 }
 
 @keyframes fade {
@@ -222,6 +284,15 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }
 
@@ -247,6 +318,7 @@ body {
 @media (max-width: 800px) {
   .Header-logo {
     width: 65%;
+    margin-top: 1px;
   }
 
   .Characters {
@@ -269,12 +341,10 @@ body {
 
 @media (max-width: 600px) {
   .Header-logo {
-    width: 75vw;
+    width: 75%;
   }
 
   .Header-nav a {
-    color: var(--fonts-color);
-    font-size: 4.5vw;
     text-decoration: none;
     padding-bottom: 5px;
   }
@@ -314,5 +384,29 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: 70%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --bg-color: #04010e;
+    --card-color: #473b6f8f;
+    --fonts-color: #fff;
+    --button-color: #179db8;
+  }
+
+  body.light-theme {
+    --bg-color: #f3f8fb;
+    --card-color: #8bc34a;
+    --fonts-color: black;
+    --button-color: #7bb439;
+  }
+
+  body.light-theme .Character-item {
+    opacity: 1;
+  }
+
+  body.light-theme .Character-item:hover {
+    opacity: 0.9;
   }
 }
