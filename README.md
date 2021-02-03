@@ -1,6 +1,6 @@
 # Rick and Morty Single Page Application [![](https://img.icons8.com/color/30/000000/rick-sanchez.png)](https://img.icons8.com/color/30/000000/rick-sanchez.png)
 
-![MIT license](https://img.shields.io/badge/License-MIT-blue.svg) ![Commits](https://img.shields.io/badge/commits-52-green.svg) ![Pull request](https://img.shields.io/badge/pull%20request-1%20closed-red.svg)
+![MIT license](https://img.shields.io/badge/License-MIT-blue.svg) ![Commits](https://img.shields.io/badge/commits-55-green.svg) ![Pull request](https://img.shields.io/badge/pull%20request-1%20closed-red.svg)
 
 ## Description
 
