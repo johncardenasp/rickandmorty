@@ -6,6 +6,7 @@
 
 This SPA was built in a [course of Single Page Application from Platzi](https://platzi.com/clases/spa-javascript/ "course of Single Page Application from Platzi"). The principal objetive is get data of the [Rick and Morty API](https://rickandmortyapi.com/ "Rick and Morty API") and print the results through a router build with JavaScript Vanilla.
 
+
 ## First steps
 
 The packaging of this project is built with webpack. If you want install all dependencies and work with this project, you can run this commands:
@@ -73,3 +74,10 @@ You can see the complete live project here -> https://johncardenasp.github.io/ri
 2. Webpack
 3. Babel
 4. Travis CI
+
+## What did I do?
+- Get data for an external API by async / await functions.
+- Layout maquetation with HTML and CSS reutilizable-components.
+- Webpack implementation for allow import / export files.
+- Babel using for code transpiling and compatibilty with all browsers.
+- Production deploy with Travis CI and GitHub Pages.
